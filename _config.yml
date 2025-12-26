@@ -1,29 +1,29 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: My Blog                # 修改：你可以改成你的博客标题
+SEOTitle: 我的博客 | Webtest1   # 修改：网页标签栏显示的标题
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+email: your-email@gmail.com   # 修改：改成你的邮箱
+description: "这里写你的博客简介..."
+keyword: "Blog, 技术, 生活"
+url: "https://llsky9.github.io"          # 【关键修改】你的 GitHub Pages 基础域名
+baseurl: "/webtest1"      # 【关键修改】你的仓库名称！前面要加斜杠，解决样式丢失的核心配置！
+github_repo: "https://github.com/llsky9/webtest1.git" # 【修改】你的仓库 Git 地址
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "写一句你的座右铭"
+sidebar-avatar: /img/about-BY-gentle.jpg      # 头像图片，后续你可以把自己的照片放入 img 文件夹替换它
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+# weibo_username:     your_id
+# zhihu_username:     your_id
+github_username:    llsky9    # 【修改】改成你的 GitHub 用户名，否则点头像会跳到别人那去
+# facebook_username:  your_id
+# jianshu_username:   your_id
+# twitter_username:   your_id
 
 
 
@@ -61,12 +61,12 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  enable: false    # 【修改】暂时关闭，原作者的Key你用不了。等网站正常后，去申请自己的ClientID再开启
+  clientID:      # 留空
+  clientSecret:  # 留空
+  repo: webtest1        # 你的仓库名
+  owner: llsky9         # 你的用户名
+  admin: llsky9
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id:  # 【修改】已清空，避免统计到原作者那里
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id:  # 【修改】已清空
+ga_domain: auto               
 
 
 
@@ -99,16 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "我的GitHub",
+        href: "https://github.com/llsky9"
     }
 ]
